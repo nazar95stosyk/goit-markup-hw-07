@@ -211,23 +211,15 @@ img {
 
 /* ------------------- Features ----------------------------*/
 .features {
-  padding: 120px 0 120px;
+  padding: 120px 0;
 }
 .features-list {
   display: flex;
-}
-.features-item {
-  margin-right: 24px;
-  max-width: 264px;
 }
 .features-item:last-child {
   margin-right: 0;
 }
 .features-item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--main-text-color);
   margin: 8px 0;
 }
@@ -240,39 +232,6 @@ img {
 .features-icon {
   width: 64px;
   height: 64px;
-}
-.features-icon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--cloud-color);
-  width: 264px;
-  height: 112px;
-}
-
-/* -----------------------------  What are we doing?  ----------------------------------- */
-
-.doing {
-  padding-bottom: 120px;
-}
-.doing-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--main-text-color);
-  margin-bottom: 72px;
-}
-.doing-list {
-  display: flex;
-}
-.doing-item {
-  margin-right: 24px;
-  width: 360px;
-}
-.doing-item:last-child {
-  margin-right: 0;
 }
 
 /* -----------------------------  Our Team  ----------------------------------- */

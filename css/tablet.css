@@ -15,4 +15,21 @@
   .team-item {
     margin-bottom: 0;
   }
+  .features {
+    padding: 96px 0;
+  }
+  .features-item-title {
+    text-align: start;
+  }
+  .features-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 72px 0;
+  }
+  .features-item {
+    max-width: 356px;
+    margin-bottom: 0;
+  }
 }
