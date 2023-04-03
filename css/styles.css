@@ -39,13 +39,13 @@ img {
   height: auto;
 }
 .container {
-  width: 1158px;
-  padding: 0 15px;
+  width: 100%;
+  /* max-width: 1158px; */
+  padding: 0 16px;
   margin: 0 auto;
 }
 
-/* -----------------------------  Header  ----------------------------------- */
-
+/* ----------------------------- Header ----------------------------------- */
 .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),

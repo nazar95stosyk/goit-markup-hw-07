@@ -1,15 +1,20 @@
-@media screen and(min-width: 480px) {
-  body {
-    width: 480px;
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 428px;
   }
-}
-@media screen and(min-width: 768px) {
-  body {
-    width: 768px;
+  .team {
+    padding: 96px 0;
   }
-}
-@media screen and(min-width: 1200px) {
-  body {
-    width: 1200px;
+  .team-item {
+    margin-right: 0;
+    margin-bottom: 72px;
+  }
+  .team-item:last-child {
+    margin-bottom: 0;
+  }
+  .team-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
