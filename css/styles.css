@@ -74,28 +74,16 @@ img {
 .header-logo span {
   color: var(--main-text-color);
 }
-.header-list {
+/* .header-list {
   display: flex;
-}
+} */
 .header-item {
   margin-right: 40px;
 }
 .header-item:last-child {
   margin-right: 0;
 }
-.header-item-page {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-text-color);
-  padding: 24px 0 23px;
-  display: block;
-  position: relative;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color, background;
-}
+
 .header-item-page:hover,
 .header-item-page:focus {
   color: var(--hover-focus-color);
@@ -118,9 +106,7 @@ img {
 .header-address-list {
   display: flex;
 }
-.header-address-item {
-  margin-left: 40px;
-}
+
 .header-address-item:first-child {
   margin-left: 0;
 }

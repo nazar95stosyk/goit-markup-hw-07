@@ -2,6 +2,25 @@
   .container {
     max-width: 768px;
   }
+  .header-list {
+    display: flex;
+  }
+  .header-address-item {
+    margin-left: 40px;
+  }
+  .header-item-page {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    padding: 24px 0 23px;
+    display: block;
+    position: relative;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color, background;
+  }
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
