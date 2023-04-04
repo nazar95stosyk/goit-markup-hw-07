@@ -315,9 +315,6 @@ img {
 
 /* -----------------------------  Customers Section  ----------------------------------- */
 
-.customers {
-  padding: 130px 0 120px;
-}
 .customers-title {
   font-weight: 700;
   font-size: 36px;
@@ -343,10 +340,6 @@ img {
   border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.customers-item {
-  height: 88px;
-  width: 168px;
 }
 .customers-icon {
   height: 56px;

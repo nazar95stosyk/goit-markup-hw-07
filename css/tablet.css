@@ -2,18 +2,11 @@
   .container {
     max-width: 768px;
   }
-  .team {
-    padding: 96px 0;
-  }
-  .team-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 72px 24px;
-  }
-  .team-item {
-    margin-bottom: 0;
+  .hero-title {
+    width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
   }
   .features {
     padding: 96px 0;
@@ -31,5 +24,24 @@
   .features-item {
     max-width: 356px;
     margin-bottom: 0;
+  }
+  .team {
+    padding: 96px 0;
+  }
+  .team-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px 24px;
+  }
+  .team-item {
+    margin-bottom: 0;
+  }
+  .customers {
+    padding: 96px 0;
+  }
+  .customers-item {
+    width: 168px;
   }
 }

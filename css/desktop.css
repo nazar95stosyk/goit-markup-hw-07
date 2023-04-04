@@ -2,19 +2,11 @@
   .container {
     max-width: 1160px;
   }
-  .team {
-    padding: 120px 0;
+  .hero {
+    padding: 188px 0;
   }
-  .team-item {
-    margin-right: 24px;
-    margin-bottom: 0;
-  }
-  .team-item:last-child {
-    margin-right: 0;
-  }
-  .team-list {
-    display: flex;
-    flex-wrap: nowrap;
+  .hero-title {
+    margin-bottom: 48px;
   }
   .features {
     padding: 120px 0;
@@ -61,5 +53,22 @@
   }
   .doing-item:last-child {
     margin-right: 0;
+  }
+  .team {
+    padding: 120px 0;
+  }
+  .team-item {
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+  .team-item:last-child {
+    margin-right: 0;
+  }
+  .team-list {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .customers {
+    padding: 120px 0;
   }
 }
