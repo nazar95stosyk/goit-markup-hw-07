@@ -1,6 +1,6 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px), (max-width: 479px) {
   .container {
-    max-width: 428px;
+    max-width: 320px;
   }
   .hero {
     padding: 112px 0;
@@ -8,7 +8,7 @@
   .hero-title {
     font-size: 36px;
     line-height: 1.11;
-    width: 320px;
+    width: 288px;
     margin-bottom: 72px;
   }
   .features {
@@ -106,11 +106,22 @@
   .footer-subscribe-input {
     margin-right: 0;
     margin-bottom: 16px;
-    width: 396px;
+    width: 288px;
     border: 1px solid #8e8f99;
   }
   .footer-subscribe-input::placeholder {
     color: #8e8f99;
+  }
+}
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 428px;
+  }
+  .hero-title {
+    width: 320px;
+  }
+  .footer-subscribe-input {
+    width: 396px;
   }
 }
 @media screen and (min-width: 480px), (max-width: 767px) {
