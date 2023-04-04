@@ -161,19 +161,7 @@ img {
 }
 
 /* ------------------- Hero ----------------------------*/
-.hero {
-  padding: 188px 0;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero-background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 1440px;
-  margin: 0;
-  background-size: cover;
-}
+
 .hero-title {
   width: 496px;
   font-size: 56px;
