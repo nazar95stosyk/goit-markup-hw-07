@@ -19,15 +19,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <div class="header-container">
+        <div class="header-nav-wrap">
+          <a href="./index.html" class="header-logo link"
+            >Web<span>Studio</span></a
+          >
+          <button type="button">+</button>
           <nav class="header-navigation">
-            <a href="./index.html" class="header-logo link"
-              >Web<span>Studio</span></a
-            >
             <ul class="header-list list">
               <li class="header-item">
                 <a href="./index.html" class="header-item-page link">Studio</a>
@@ -283,7 +287,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer-flex">
+      <div class="container footer-flex smaller-container">
         <div class="footer-logo-description">
           <a href="./index.html" class="footer-logo link"
             >Web<span>Studio</span></a
@@ -326,24 +330,23 @@
             </li>
           </ul>
         </div>
-        <form>
-          <div class="Subscribe">
-            <p class="footer-subscribe-title">Subscribe</p>
-            <div class="footer-input-button">
-              <input
-                type="email"
-                name="footer-email"
-                id="footer-email"
-                class="footer-subscribe-input"
-                placeholder="E-mail"
-              />
-              <button type="submit" class="footer-subscribe-btn">
-                <span class="subscribe-button-text">Subscribe</span
-                ><svg class="footer-subscribe-icon">
-                  <use href="./images/icon.svg#icon-telegram"></use>
-                </svg>
-              </button>
-            </div>
+        <form class="footer-form">
+          <p class="footer-subscribe-title">Subscribe</p>
+          <div class="footer-input-button">
+            <input
+              type="email"
+              name="footer-email"
+              id="footer-email"
+              class="footer-subscribe-input"
+              placeholder="E-mail"
+              aria-label="email"
+            />
+            <button type="submit" class="footer-subscribe-btn">
+              <span class="subscribe-button-text">Subscribe</span
+              ><svg class="footer-subscribe-icon">
+                <use href="./images/icon.svg#icon-telegram"></use>
+              </svg>
+            </button>
           </div>
         </form>
       </div>
