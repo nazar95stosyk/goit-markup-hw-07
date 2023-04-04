@@ -71,4 +71,27 @@
   .customers {
     padding: 120px 0;
   }
+  .footer {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .footer-logo-description {
+    margin-right: 120px;
+  }
+  .footer-socials {
+    width: 208px;
+    margin-right: 80px;
+  }
+  .footer-social-list {
+    gap: 16px;
+  }
+  .footer-text {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    min-width: 1160px;
+  }
 }
