@@ -2,6 +2,9 @@
   .container {
     max-width: 768px;
   }
+  .header-logo {
+    display: unset;
+  }
   .header-list {
     display: flex;
   }
