@@ -70,13 +70,11 @@ img {
   margin-right: 76px;
   padding: 24px 0 23px;
   display: block;
+  margin-right: auto;
 }
 .header-logo span {
   color: var(--main-text-color);
 }
-/* .header-list {
-  display: flex;
-} */
 
 .header-address {
 }

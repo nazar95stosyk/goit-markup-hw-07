@@ -27,7 +27,7 @@
     flex-direction: column;
   }
   .header-address-item-mail {
-    color: var(--address-items-description-color);
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -35,6 +35,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color;
+    font-style: normal;
+    text-decoration: none;
   }
   .header-address-item-mail:hover,
   .header-address-item-mail:focus {
@@ -42,7 +44,7 @@
   }
   .header-address-item-tel {
     display: block;
-    color: var(--address-items-description-color);
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -50,6 +52,8 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color;
     margin-bottom: 0;
+    font-style: normal;
+    text-decoration: none;
   }
   .header-address-item-tel:hover,
   .header-address-item-tel:focus {

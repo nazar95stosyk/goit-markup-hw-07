@@ -2,6 +2,10 @@
   .container {
     max-width: 1160px;
   }
+  .header-address-list {
+    display: flex;
+    flex-direction: row;
+  }
   .hero {
     padding: 188px 0;
     background-image: linear-gradient(
