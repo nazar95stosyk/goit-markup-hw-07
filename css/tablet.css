@@ -5,8 +5,58 @@
   .header-list {
     display: flex;
   }
+  .header-navigation {
+    margin: 0;
+  }
+  .header-item {
+    margin-right: 40px;
+    margin-bottom: 0;
+  }
   .header-address-item {
-    margin-left: 40px;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .header-address-item:first-child {
+    margin-bottom: 0;
+  }
+  .header-address-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-address-item-mail {
+    color: var(--address-items-description-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: block;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
+  }
+  .header-address-item-mail:hover,
+  .header-address-item-mail:focus {
+    color: var(--hover-focus-color);
+  }
+  .header-address-item-tel {
+    display: block;
+    color: var(--address-items-description-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
+    margin-bottom: 0;
+  }
+  .header-address-item-tel:hover,
+  .header-address-item-tel:focus {
+    color: var(--hover-focus-color);
+  }
+  .header-address-item:first-child {
+    margin-left: 0;
+  }
+  .header-item:last-child {
+    margin-right: 0;
   }
   .header-item-page {
     font-weight: 500;
@@ -20,6 +70,39 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color, background;
+  }
+  .header-nav-wrap {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    width: unset;
+    height: unset;
+    position: static;
+  }
+  .header-btn-mobile-close {
+    display: none;
+  }
+  .header-btn-mobile {
+    display: none;
+  }
+  .current {
+    color: var(--hover-focus-color);
+  }
+  .current::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: var(--hover-focus-color);
+    border-radius: 2px;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+  }
+  .header-item-page:hover,
+  .header-item-page:focus {
+    color: var(--hover-focus-color);
   }
   .hero {
     background-image: linear-gradient(

@@ -18,7 +18,14 @@
     margin-left: auto;
   }
   .header-address-list {
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .header-item {
+    margin-bottom: 40px;
+  }
+  .header-item:last-child {
+    margin-bottom: 0;
   }
   .header-item-page {
     font-weight: 700;
@@ -27,10 +34,37 @@
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     display: block;
-    position: relative;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color, background;
+  }
+  .header-navigation {
+    margin-top: 32px;
+    margin-bottom: 264px;
+  }
+  .header-address-item {
+    margin-bottom: 40px;
+  }
+  .header-address-item:first-child {
+    margin-bottom: 48px;
+  }
+  .header-address-item-tel {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #4d5ae5;
+    font-style: normal;
+    margin-bottom: 40px;
+  }
+  .header-address-item-mail {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal;
   }
   .hero {
     padding: 112px 0;
