@@ -49,6 +49,9 @@
     margin-right: 24px;
     max-width: 264px;
   }
+  .features-item-description {
+    font-weight: 400;
+  }
   /* -----------------------------  What are we doing?  ----------------------------------- */
 
   .doing {

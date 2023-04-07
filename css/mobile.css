@@ -1,4 +1,14 @@
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 320px), (max-width: 479px) {
+  .modal-title {
+    font-size: 12px;
+  }
+  .modal {
+    width: 100%;
+    max-width: 408px;
+  }
+  .features-item {
+    width: 100%;
+  }
   .container {
     width: 100%;
   }
@@ -116,9 +126,10 @@
       url(../images/mobile-hero-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 1440px;
+    max-width: 1920px;
     margin: 0;
     background-size: cover;
+    margin-right: auto;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -141,12 +152,13 @@
     padding: 96px 0;
   }
   .features-item-title {
+    margin-top: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.111;
     text-align: center;
   }
-  .features-icon-container {
+  .features-icon {
     display: none;
   }
   .features-list {
@@ -169,6 +181,7 @@
   }
   .team-item {
     width: 100%;
+    max-width: 264px;
     margin-right: 0;
     margin-bottom: 72px;
   }
@@ -200,7 +213,6 @@
   .footer-text {
     width: 100%;
     text-align: left;
-    margin-bottom: 72px;
   }
   .footer-flex {
     display: flex;
@@ -365,7 +377,7 @@
       url(../images/mobile-hero-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 1440px;
+    width: 100%;
     margin: 0;
     background-size: cover;
   }
@@ -395,6 +407,15 @@
     line-height: 1.111;
     text-align: center;
   }
+  .features-item-description {
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
   .features-icon-container {
     display: none;
   }
@@ -417,12 +438,14 @@
     padding: 96px 0;
   }
   .team-item {
+    width: 264px;
     margin-right: 0;
     margin-bottom: 72px;
   }
   .team-item:last-child {
     margin-bottom: 0;
   }
+
   .team-list {
     display: flex;
     flex-direction: column;
@@ -496,9 +519,21 @@
   .footer-subscribe-input {
     width: 396px;
   }
-}
-@media screen and (min-width: 480px), (max-width: 767px) {
-  .bigger-container {
-    max-width: 480px;
+  .modal-form-label {
+    width: 100%;
+  }
+  @media screen and (min-width: 480px), (max-width: 767px) {
+    .bigger-container {
+      max-width: 480px;
+    }
+    .modal-title {
+      font-size: 16px;
+    }
+    .modal-checkbox-text {
+      font-size: 12px;
+    }
+    .modal-checkbox-link {
+      font-size: 12px;
+    }
   }
 }

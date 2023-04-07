@@ -27,6 +27,7 @@
     flex-direction: column;
   }
   .header-address-item-mail {
+    padding: 0;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -77,6 +78,7 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color, background;
+    margin-bottom: 0;
   }
   .header-nav-wrap {
     padding: 0;
@@ -206,6 +208,12 @@
   }
   .footer-subscribe-title {
     text-align: start;
+  }
+  .modal-form-label {
+    font-size: 12px;
+  }
+  .modal-checkbox-link {
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 768px), (max-width: 1199px) {

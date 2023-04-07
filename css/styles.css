@@ -414,6 +414,7 @@ img {
 }
 .footer-logo-description {
   margin-right: 120px;
+  margin-bottom: 72px;
 }
 .footer-socials {
   margin-right: auto;
@@ -522,7 +523,7 @@ img {
 .modal-title {
   text-align: center;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
@@ -554,8 +555,7 @@ img {
 }
 .modal-form-label {
   display: block;
-  margin-bottom: 4px;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.166;
   letter-spacing: 0.04em;
   color: #8e8f99;
@@ -578,7 +578,7 @@ img {
   border: 1px solid var(--hover-focus-color);
 }
 .modal-checkbox-link {
-  font-size: 12px;
+  font-size: 9px;
   line-height: 1.166;
   letter-spacing: 0.04em;
   color: var(--iris-color);
@@ -615,8 +615,9 @@ img {
   cursor: pointer;
 }
 .modal-checkbox-text {
-  margin-left: 8px;
+  margin-left: 9px;
   margin-right: 4px;
+  font-size: 8px;
 }
 .modal-button {
   display: block;
