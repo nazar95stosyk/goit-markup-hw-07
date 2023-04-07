@@ -210,6 +210,6 @@
 }
 @media screen and (min-width: 768px), (max-width: 1199px) {
   .smaller-container {
-    width: 552px;
+    max-width: 552px;
   }
 }

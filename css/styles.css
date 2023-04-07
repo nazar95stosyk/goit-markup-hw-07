@@ -13,7 +13,6 @@ body {
   background-color: var(--main-background-color);
   color: var(--main-text-color);
   margin: 0;
-  min-width: 320px;
 }
 .link {
   text-decoration: none;
@@ -41,9 +40,9 @@ img {
 }
 .container {
   width: 100%;
-  /* max-width: 1158px; */
   padding: 0 16px;
   margin: 0 auto;
+  max-width: 428px;
 }
 
 /* ----------------------------- Header ----------------------------------- */
