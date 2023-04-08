@@ -192,6 +192,10 @@
     align-items: start;
     width: 240px;
   }
+  .footer-social-list {
+    display: flex;
+    justify-content: start;
+  }
   .footer-logo-description {
     display: flex;
     flex-direction: column;

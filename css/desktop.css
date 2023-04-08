@@ -2,9 +2,31 @@
   .container {
     max-width: 1160px;
   }
+  .header-logo {
+    margin-right: 76px;
+  }
+  .header-address {
+    display: flex;
+    align-items: center;
+  }
   .header-address-list {
     display: flex;
     flex-direction: row;
+  }
+  .header-address-item-mail,
+  .header-address-item-tel {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .header-address-item-mail {
+    margin-right: 40px;
+  }
+  .header-navigation {
+    margin-right: 332px;
   }
   .hero {
     padding: 188px 0;
@@ -101,6 +123,7 @@
   }
   .footer-logo-description {
     margin-right: 120px;
+    margin-bottom: 0;
   }
   .footer-socials {
     margin-right: 80px;
