@@ -1,8 +1,22 @@
 @media screen and (min-width: 768px) {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
   .container {
     max-width: 768px;
   }
+  .page-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
   .header-logo {
+    margin-right: 120px;
     display: unset;
   }
   .header-list {
@@ -23,6 +37,7 @@
     margin-bottom: 0;
   }
   .header-address-list {
+    margin: 0;
     display: flex;
     flex-direction: column;
   }
