@@ -157,6 +157,9 @@
     max-width: 356px;
     margin-bottom: 0;
   }
+  .features-item-description {
+    font-weight: 400;
+  }
   .team {
     padding: 96px 0;
   }

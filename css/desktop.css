@@ -59,6 +59,10 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
   }
+  .features-icon {
+    display: flex;
+    justify-content: center;
+  }
   .features-icon-container {
     display: flex;
     justify-content: center;
