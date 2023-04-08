@@ -280,7 +280,7 @@
     padding: 96px 0;
   }
   .footer-text {
-    width: 100%;
+    width: 268px;
     text-align: left;
   }
   .footer-flex {
@@ -320,12 +320,15 @@
   .footer-subscribe-input {
     margin-right: 0;
     margin-bottom: 16px;
-    width: 200px;
+    width: 268px;
     border: 1px solid #8e8f99;
   }
   .footer-subscribe-input::placeholder {
     color: #8e8f99;
   }
+  /* .smaller-container {
+    width: 268px;
+  } */
 }
 @media screen and (min-width: 480px) {
   .page-header {
@@ -531,9 +534,6 @@
   }
   .footer {
     padding: 96px 0;
-  }
-  .footer-text {
-    margin-bottom: 72px;
   }
   .footer-flex {
     display: flex;

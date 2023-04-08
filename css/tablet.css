@@ -23,7 +23,7 @@
     display: flex;
   }
   .header-navigation {
-    margin: 0;
+    margin-right: 120px;
   }
   .header-item {
     margin-right: 40px;
@@ -43,16 +43,20 @@
   }
   .header-address-item-mail {
     padding: 0;
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     display: block;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color;
     font-style: normal;
     text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.166;
+    letter-spacing: 0.04em;
+    color: #434455;
+    text-decoration: none;
+    margin-bottom: 12px;
   }
   .header-address-item-mail:hover,
   .header-address-item-mail:focus {
@@ -61,9 +65,10 @@
   .header-address-item-tel {
     display: block;
     color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.166;
+    letter-spacing: 0.04em;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color;
@@ -88,28 +93,11 @@
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     padding: 24px 0 23px;
-    display: block;
     position: relative;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: color, background;
     margin-bottom: 0;
-  }
-  .header-nav-wrap {
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: transparent;
-    width: unset;
-    height: unset;
-    position: static;
-  }
-  .header-btn-mobile-close {
-    display: none;
-  }
-  .header-btn-mobile {
-    display: none;
   }
   .current {
     color: var(--hover-focus-color);
@@ -121,7 +109,7 @@
     background-color: var(--hover-focus-color);
     border-radius: 2px;
     position: absolute;
-    bottom: -1px;
+    top: 42px;
     left: 0;
   }
   .header-item-page:hover,
@@ -202,12 +190,14 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+    width: 240px;
   }
   .footer-logo-description {
     display: flex;
     flex-direction: column;
     align-items: start;
     margin-right: 24px;
+    width: 264px;
   }
   .footer-text {
     text-align: left;
@@ -234,5 +224,6 @@
 @media screen and (min-width: 768px), (max-width: 1199px) {
   .smaller-container {
     max-width: 552px;
+    padding: 0;
   }
 }
