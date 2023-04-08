@@ -1,7 +1,37 @@
 @media screen and (min-width: 320px), (max-width: 479px) {
+  .burger-social-list {
+    display: flex;
+    justify-content: start;
+    gap: 24px;
+  }
+  .burger-social-item {
+    width: 40px;
+    height: 40px;
+  }
+  .burger-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color;
+  }
+  .burger-social-link:hover,
+  .burger-social-link:focus {
+    background-color: #404bbf;
+  }
+  .burger-social-icon {
+    width: 24px;
+    height: 24px;
+  }
   .modal-title {
     font-size: 12px;
   }
+
   .modal {
     width: 100%;
     max-width: 408px;
@@ -18,7 +48,6 @@
   }
 
   .page-header .container {
-    min-height: 80px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -134,8 +163,28 @@
     color: #404bbf;
   }
   .header-address-list {
+    margin-top: 244px;
+    margin-bottom: 8px;
     display: flex;
     flex-direction: column-reverse;
+  }
+  .header-address-item {
+    margin-bottom: 40px;
+  }
+  .header-address-item-tel {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1.1;
+    text-transform: capitalize;
+  }
+  .header-address-item-mail {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
   }
   .hero {
     padding: 112px 0;
@@ -163,10 +212,11 @@
     }
   }
   .hero-title {
-    font-size: 36px;
+    font-size: 25px;
     line-height: 1.11;
     width: 100%;
     margin-bottom: 72px;
+    max-width: 320px;
   }
   .features {
     padding: 96px 0;
@@ -288,7 +338,6 @@
     min-height: 80px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
   }
 
   .menu {
@@ -365,7 +414,7 @@
 
   .mobile-menu {
     padding: 0;
-    margin: 0;
+    margin-bottom: 2px;
     list-style: none;
   }
 
@@ -412,7 +461,7 @@
   .hero-title {
     font-size: 36px;
     line-height: 1.11;
-    width: 288px;
+    width: 320px;
     margin-bottom: 72px;
   }
   .features {
@@ -551,6 +600,14 @@
     }
     .modal-checkbox-link {
       font-size: 12px;
+    }
+    .header-address-item-tel {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.1;
+      text-transform: capitalize;
+      color: #4d5ae5;
     }
   }
 }

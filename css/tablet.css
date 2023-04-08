@@ -132,7 +132,7 @@
     }
   }
   .hero-title {
-    width: 496px;
+    min-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     margin-bottom: 36px;
