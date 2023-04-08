@@ -45,6 +45,7 @@
   }
 
   .menu-toggle {
+    position: absolute;
     height: 24px;
     width: 24px;
     display: flex;
@@ -73,8 +74,8 @@
 
   .menu-container {
     position: fixed;
-    top: 24;
-    left: 24;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
     padding: 80px 40px 40px;
@@ -105,7 +106,7 @@
     align-items: center;
     padding: 0;
     top: 24px;
-    right: 24;
+    right: 24px;
   }
 
   .mobile-menu {
@@ -128,6 +129,13 @@
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 40px;
+  }
+  .header-item-page:focus {
+    color: #404bbf;
+  }
+  .header-address-list {
+    display: flex;
+    flex-direction: column-reverse;
   }
   .hero {
     padding: 112px 0;
@@ -304,8 +312,8 @@
   }
 
   .menu-toggle {
-    min-height: 40px;
-    min-width: 40px;
+    min-height: 24px;
+    min-width: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -350,8 +358,8 @@
 
   .menu-container .menu-toggle {
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 24px;
+    right: 24px;
     color: inherit;
   }
 
@@ -376,6 +384,7 @@
     color: #2e2f42;
     margin-bottom: 40px;
   }
+
   .hero {
     padding: 112px 0;
     background-image: linear-gradient(
@@ -542,11 +551,6 @@
     }
     .modal-checkbox-link {
       font-size: 12px;
-    }
-    .menu-container .menu-toggle {
-      position: absolute;
-      top: 24px;
-      right: 24px;
     }
   }
 }
